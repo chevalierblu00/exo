@@ -1,0 +1,9 @@
+section > div {
+  border: 2px solid black;
+  background: orangered;
+  margin-bottom: 10px;
+}
+
+div ~ p {
+  color: violet;
+}
