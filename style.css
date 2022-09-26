@@ -6,19 +6,28 @@
 }
 
 section{
-  margin-bottom: 50px;
-  padding: 50px;
-  background: greenyellow;
-  border: 2px solid black;
-  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 div{
-  width: 600px;
-  height: 300px;
-  background: maroon;
+  background: aquamarine;
+  width: 250px;
+  height: 150px;
+  border: 2px solid palevioletred;
 }
 
-.box{
-  
+section > div:nth-of-type(1){
+  height: 200px;
+}
+
+section > div:nth-of-type(2){
+  height: 100px;
+}
+
+section > div:nth-of-type(3){
+  height: 300px;
 }
