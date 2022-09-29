@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+section{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.cinque-douze{
+  display: flex;
+  flex-direction: column;
+  height:auto;
+  width:auto;
+}
+
+.onze-douze{
+  display: flex;
+  flex-direction: wrap;
+  height:auto;
+  width:auto;
+}
+
+.droite{
+  display: flex;
+  flex-direction: row;
+  height:auto;
+  width:auto;
+}
+
+.gauche{
+  width: 60%;
+  height: 100%;
+}
+
+.premiere-partie{
+  height: 20%;
+  display: flex
+}
+
+.deuxieme-partie{
+  height: 20%;
+  display: flex;
+}
+
+.troisieme-partie{
+  height: 40%;
+  display: flex;
+}
+
+.quatrieme-partie{
+  height: 20%;
+}
+
+.cinquieme-partie{
+  display: flex;
+  flex-wrap: wrap;
+  height:auto;
+  width:auto;
+}
+
+.sixieme-partie{
+  display: flex;
+  flex-wrap: wrap;
+  height:auto;
+  width:100%;
+}
+
+.septieme-partie{
+  display: flex;
+  flex-wrap: wrap;
+  height:auto;
+  width:auto;
+}
+
+.huitieme-partie{
+  display: flex;
+  flex-wrap: wrap;
+  height:auto;
+  width:auto;
+}
+
+.premiere-partie > div:nth-of-type(1){
+  background-color: aqua;
+  width: 33.333%;
+  height: 100%;
+}
+
+.premiere-partie > div:nth-of-type(2){
+  background-color: greenyellow;
+  width: 33.333%;
+  height: 100%;
+}
+
+.premiere-partie > div:nth-of-type(3){
+  background-color: brown;
+  width: 33.333%;
+  height: 100%;
+}
+
+.premiere-partie > div:nth-of-type(4){
+  background-color: #ee0101;
+  height: 100px;
+  width: 200px;
+}
+
+.premiere-partie > div:nth-of-type(5){
+  background-color: #3005ff;
+  height: 200px;
+  width: 200px;
+}
+
+.deuxieme-partie > div:nth-of-type(1){
+  background-color: #565616;
+  width: 70%;
+}
+
+.deuxieme-partie > div:nth-of-type(2){
+  background-color: #737373;
+  width: 30%;
+}
+
+.troisieme-partie > div:nth-of-type(1){
+  background-color: #1cff00;
+  height: 100%;
+  width: 50%;
+}
+
+.troisieme-partie > div:nth-of-type(2){
+  background-color: #1100ff;
+  height: 100%;
+  width: 50%;
+}
+
+.quatrieme-partie> div:nth-of-type(1){
+  background-color: #ff0000;
+  height: 100%;
+}
+
+.cinquieme-partie> div:nth-of-type(1){
+  background-color: #ff00dd;
+  width: 200px;
+}
+
+.sixieme-partie > div:nth-of-type(1){
+  background-color: #46037a;
+  height: 300px;
+  width: 500px;
+}
+
+.septieme-partie > div:nth-of-type(1){
+  background-color: #3c5693;
+  height: 421px;
+  width: 250px;
+}
+
+.huitieme-partie > div:nth-of-type(1){
+  background-color: #ff0000;
+  height: 421px;
+    width: 250px;
+}
